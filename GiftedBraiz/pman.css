@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+.to{
+    display: flex;
+    gap: 15px;
+}
+.tor{
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+button{
+    
+    height: 5vh;
+    padding: 10px;
+    width: 20vh;
+    border: none;
+    border-radius: 3px;
+    background-color: darkslateblue;
+    color: white;
+
+}
+.jo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.jo p{
+    padding-bottom: 10px;
+}
