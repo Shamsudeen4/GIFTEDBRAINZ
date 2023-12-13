@@ -1,6 +1,6 @@
 *{
-    padding: 0%;
     margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 main{
@@ -31,7 +31,7 @@ table{
     
 }
 th, td{
-    padding: 8px;
+    padding: 15px;
     border-bottom: 1px solid rgb(201, 190, 190);
 }
 .name{
@@ -42,10 +42,6 @@ th, td{
 }
 .name{
     font-weight: bold;
-}
-.caption p{
-    width: 90%;
-   
 }
 
 
@@ -77,9 +73,5 @@ th, td{
     .num{
         padding-right: 50px;
     }
-        
     
 }
-
-
-
