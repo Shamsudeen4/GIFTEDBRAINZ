@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.course-page{
+    padding: 40px 0px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+}
+.div-1{
+    display: flex;
+    justify-content: space-around;
+    gap: 278px;
+    
+
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.div-2{
+    display: flex;
+    flex-direction: column;
+}
+.cat{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.cat img{
+    height: 1vh;
+}
+
+
+.div-2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.advance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+.enroll{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.enroll button{
+    padding: 17px 30px;
+    border: none;
+    background-color: #5852FE;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: small;
+    border: 2px solid #5852FE;
+
+}
+.advance h3{
+    text-align: center;
+}
+.border{
+    border: 1px solid #5852FE;
+    padding: 12px 15px;
+    font-size: medium;
+    border-radius: 10px;   
+}
+.border2{
+    border: 1px solid #5852FE;
+    padding: 12px 15px;
+    font-size: medium;
+    border-radius: 10px;
+}
+.border3{
+    border: 1px solid #5852FE;
+    padding: 12px 15px;
+    font-size: medium;
+    border-radius: 10px;   
+}
+.border4{
+    border: 1px solid #5852FE;
+    padding: 12px 15px;
+    font-size: medium;
+    border-radius: 10px;   
+}
+.ui{
+    line-height: 53px;
+}
+.tech{
+    display: flex;
+    justify-content: space-around;
+    gap: 518px;
+}
+.img-2{
+    height: 30vh;
+}
+.div-img-1{
+    display: flex;
+    gap: 45px;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 120px;
+}
+
+
+
+.div-3{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.img-3{
+    height: 30vh;
+}
+.div-img-2{
+    display: flex;
+    gap: 45px;
+
+}
+.history{
+    display: flex;
+    justify-content: space-around;
+    gap: 820px;
+}
+.skin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.enroll2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.border5{
+    border: 1px solid #5852FE;
+    padding: 12px 15px;
+    font-size: medium;
+    border-radius: 10px;   
+}
+.enroll2 button{
+    padding: 17px 30px;
+    border: none;
+    background-color: #5852FE;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: small;
+    border: 2px solid #5852FE;
+}
+.care{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.africa{
+    text-align: center;
+}
+
+button:hover{
+    color: #5852FE;
+    transition: 2s;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+
+
+
+@media screen and (max-width: 950px){
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .div-1{
+        justify-content: center;
+        gap: 20px;
+        font-size: smaller;
+        flex-direction: column;
+        align-items: center;
+    }
+    .explore p{
+        width: 55%;
+        text-align: center;
+        font-size: small;
+    }
+    .cat{
+        font-size: small;
+    }
+    .explore{
+        align-items: center;
+    }
+    .div-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+    }
+    .tech{
+        justify-content: center;
+        gap: 18px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .div-img-1{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .history{
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .div-img-2{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .div-3{
+        align-items: center;
+    }.all{
+        gap: 170px;
+    }
+    
+    
+}
+
+
